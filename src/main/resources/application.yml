@@ -1,7 +1,3 @@
-
-
-
-#注意【空格】
 person:
     age: 18
     boss: false
@@ -11,6 +7,6 @@ person:
       - lisi
       - zhaoliu
     dog:
-      name: 小狗
+      name: dog
       age: 12
     lastName: zhangsan

@@ -1,10 +1,13 @@
 package com.fifi.bean;
 
+import org.springframework.stereotype.Component;
+
 /**
  * @author Alicia
  * @description
  * @date 2019/9/22
  */
+@Component
 public class Dog {
     private String name;
     private String age;

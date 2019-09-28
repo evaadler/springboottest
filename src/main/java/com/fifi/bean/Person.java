@@ -19,6 +19,11 @@ import java.util.Map;
 @ConfigurationProperties(prefix = "person")
 public class Person {
 
+
+    /**
+     * 字面量${key}从环境变量，配置文件获取值，#{SpEL}Spring表达式
+     */
+
     private String lastName;
     private int age;
     private boolean boss;
@@ -26,6 +31,8 @@ public class Person {
     private Map<String, Object> maps;
     private List<Object> list;
     private Dog dog;
+
+
 
     public String getLastName() {
         return lastName;
