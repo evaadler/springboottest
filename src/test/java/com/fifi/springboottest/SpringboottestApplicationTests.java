@@ -1,6 +1,6 @@
 package com.fifi.springboottest;
 
-import com.fifi.bean.Person;
+import com.fifi.springboottest.bean.Person;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,8 +15,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 public class SpringboottestApplicationTests {
 
-	@Autowired(required = false)
-	Person person;
+	@Autowired
+    Person person;
 
 	@Autowired
 	MyProcessor myProcessor;
@@ -54,5 +54,6 @@ public class SpringboottestApplicationTests {
 
 		System.out.println(person);
 	}
+
 
 }

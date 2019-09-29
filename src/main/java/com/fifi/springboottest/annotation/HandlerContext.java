@@ -1,7 +1,7 @@
-package com.fifi.annotation;
+package com.fifi.springboottest.annotation;
 
-import com.fifi.bean.BeanTool;
-import com.fifi.service.AbstractHandler;
+import com.fifi.springboottest.bean.BeanTool;
+import com.fifi.springboottest.service.AbstractHandler;
 
 import java.util.Map;
 

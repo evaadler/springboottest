@@ -1,6 +1,6 @@
-package com.fifi.config;
+package com.fifi.springboottest.config;
 
-import com.fifi.service.HelloService;
+import com.fifi.springboottest.service.HelloService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

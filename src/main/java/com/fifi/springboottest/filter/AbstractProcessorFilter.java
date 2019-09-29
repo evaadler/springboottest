@@ -1,5 +1,5 @@
-package com.fifi.filter;
-import com.fifi.service.MessageProcessor;
+package com.fifi.springboottest.filter;
+import com.fifi.springboottest.service.MessageProcessor;
 
 /**
  * @author Alicia

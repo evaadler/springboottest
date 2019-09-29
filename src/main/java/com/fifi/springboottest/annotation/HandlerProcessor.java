@@ -1,11 +1,10 @@
-package com.fifi.annotation;
+package com.fifi.springboottest.annotation;
 
 import com.fifi.util.ClassScaner;
 import com.fifi.util.Maps;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanFactoryPostProcessor;
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
-import org.springframework.stereotype.Component;
 
 import java.util.Map;
 
@@ -15,7 +14,7 @@ import java.util.Map;
  * @date 2019/9/21
  */
 
-@Component
+//@Component
 public class HandlerProcessor implements BeanFactoryPostProcessor {
 
     private static final String HANDLER_PACKAGE = "";

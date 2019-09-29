@@ -1,4 +1,4 @@
-package com.fifi.filter;
+package com.fifi.springboottest.filter;
 
 /**
  * @author Alicia

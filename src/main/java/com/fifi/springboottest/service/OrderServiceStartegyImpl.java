@@ -1,16 +1,14 @@
-package com.fifi.service;
-
-import com.fifi.annotation.HandlerContext;
-import com.fifi.bean.OrderDTO;
+package com.fifi.springboottest.service;
+import com.fifi.springboottest.annotation.HandlerContext;
+import com.fifi.springboottest.bean.OrderDTO;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 
 /**
  * @author Alicia
  * @description
  * @date 2019/9/21
  */
-@Service
+//@Service
 public class OrderServiceStartegyImpl implements IOrderService
 {
     @Autowired

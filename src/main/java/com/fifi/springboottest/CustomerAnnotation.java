@@ -1,8 +1,7 @@
 package com.fifi.springboottest;
-import	java.awt.Point;
 
 
-import com.fifi.annotation.MyAnnotation;
+import com.fifi.springboottest.annotation.MyAnnotation;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
@@ -16,7 +15,7 @@ public class CustomerAnnotation {
    // public void checkAcivity(){}
 
    // @Around("checkAcivity()")
-    @Around("@annotation(com.fifi.annotation.MyAnnotation))")
+    @Around("@annotation(com.fifi.springboottest.annotation.MyAnnotation))")
     public Object process(ProceedingJoinPoint proceedingJoinPoint) throws Throwable {
         System.out.println("test aop .....");
 

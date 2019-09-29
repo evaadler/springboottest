@@ -1,6 +1,6 @@
 package com.fifi.util;
 
-import com.fifi.annotation.HandlerType; /**
+import com.fifi.springboottest.annotation.HandlerType; /**
  * @author Alicia
  * @description
  * @date 2019/9/22

@@ -1,4 +1,4 @@
-package com.fifi.service;
+package com.fifi.springboottest.service;
 
 public interface MessageProcessor {
     void init();

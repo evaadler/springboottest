@@ -1,4 +1,4 @@
-package com.fifi.annotation;
+package com.fifi.springboottest.annotation;
 import java.lang.annotation.*;
 
 @Retention(RetentionPolicy.RUNTIME)

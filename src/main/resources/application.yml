@@ -1,4 +1,8 @@
+server:
+  port: 8081
+
 person:
+
     age: 18
     boss: false
     birth: 2019/09/19
@@ -7,6 +11,5 @@ person:
       - lisi
       - zhaoliu
     dog:
-      name: dog
+      name: 小狗
       age: 12
-    lastName: zhangsan

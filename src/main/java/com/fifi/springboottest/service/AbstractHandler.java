@@ -1,6 +1,6 @@
-package com.fifi.service;
+package com.fifi.springboottest.service;
 
-import com.fifi.bean.OrderDTO;
+import com.fifi.springboottest.bean.OrderDTO;
 
 /**
  * @author Alicia

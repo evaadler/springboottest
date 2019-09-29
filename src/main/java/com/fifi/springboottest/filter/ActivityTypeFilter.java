@@ -1,6 +1,6 @@
-package com.fifi.filter;
+package com.fifi.springboottest.filter;
 
-import com.fifi.bean.HtsMessage;
+import com.fifi.springboottest.bean.HtsMessage;
 
 /**
  * @author Alicia

@@ -1,4 +1,4 @@
-package com.fifi.bean;
+package com.fifi.springboottest.bean;
 
 /**
  * @author Alicia

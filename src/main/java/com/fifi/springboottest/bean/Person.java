@@ -1,7 +1,6 @@
-package com.fifi.bean;
+package com.fifi.springboottest.bean;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 
 import java.util.Date;
@@ -14,9 +13,9 @@ import java.util.Map;
  * @date 2019/9/20
  */
 
-@PropertySource(value = {"classpath:person.properties"})
+//@PropertySource(value = {"classpath:person.properties"})
 @Component
-@ConfigurationProperties(prefix = "person")
+@ConfigurationProperties(prefix ="person")
 public class Person {
 
 
@@ -24,23 +23,17 @@ public class Person {
      * 字面量${key}从环境变量，配置文件获取值，#{SpEL}Spring表达式
      */
 
-    private String lastName;
+
     private int age;
     private boolean boss;
     private Date birth;
     private Map<String, Object> maps;
-    private List<Object> list;
+    private List<Object> lists;
+
+
     private Dog dog;
 
 
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
 
     public int getAge() {
         return age;
@@ -74,31 +67,23 @@ public class Person {
         this.maps = maps;
     }
 
-    public List<Object> getList() {
-        return list;
+    public List<Object> getLists() {
+        return lists;
     }
 
-    public void setList(List<Object> list) {
-        this.list = list;
-    }
-
-    public Dog getDog() {
-        return dog;
-    }
-
-    public void setDog(Dog dog) {
-        this.dog = dog;
+    public void setLists(List<Object> lists) {
+        this.lists = lists;
     }
 
     @Override
     public String toString() {
         return "Person{" +
-                "lastName='" + lastName + '\'' +
+
                 ", age=" + age +
                 ", boss=" + boss +
                 ", birth=" + birth +
                 ", maps=" + maps +
-                ", list=" + list +
+                ", lists=" + lists +
                 ", dog=" + dog +
                 '}';
     }
